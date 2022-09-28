@@ -1,0 +1,95 @@
+/* ======= general styling ======= */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    font-family: montserret,sans-serif;
+    line-height: 1.5;
+    user-select: none;
+    background: #819189;
+}
+/* ======= style the header ======= */
+header{
+    margin: 2rem 20rem ;
+}
+header img{
+    width: 100%;
+}
+/* ======= style the navbar ======= */
+nav{
+    margin: 2rem 7.5rem;
+    position: relative;
+    background: rgba(33, 26, 26, 0.516);
+    border-radius: 50px;
+    width: 80%;
+    padding: 7px 21rem;
+}
+nav ul{
+    display: flex;
+    gap: 2.5rem;
+}
+nav ul a{
+    color: #fff;
+}
+/* ======= style the main ======= */
+main{
+    margin: 0 8.5rem 0 7.4rem;
+}
+main article:nth-child(1){
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    color: #fff;
+    background-image: url("pngtree-summer-atmosphere-restaurant-supermarket-vegetable-psd-layered-promotion-background-image_159939.jpg");
+}
+main article:nth-child(1) h2{
+    font-size:2rem ;
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+main article:nth-child(2){
+    display: flex;
+    gap: 1rem;
+}
+main article:nth-child(2) div{ 
+    background: #f2d28862;
+    padding: 1rem ;
+    border-radius: 15px;
+}
+main article:nth-child(2) div img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 1rem 0 0.5rem;
+}
+main article:nth-child(2) div p{
+    margin-bottom: 1rem;
+}
+main article:nth-child(2) div a{
+    text-decoration: underline;
+    color:brown;
+}
+
+/* ======= style the footer ======= */
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 8.5rem 3rem;
+}
+footer div img{
+    width: 40%;
+}
+footer div:nth-child(2){
+    border-top: 1px solid;
+    width: 50%;
+    text-align: right;
+}
